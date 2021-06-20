@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 body{
     margin: 0px;
     padding: 0px;
@@ -66,7 +66,10 @@ nav{
     background-color: #747474;
     font-weight: bold;
     color: #FFF;
-    transition: all ease 3s;
+    transition: all ease 1.2s;
+}
+.menu li a::after{
+    background-color:#747474;
 }
 .my-detail{
     font-family: calbri;
@@ -78,7 +81,7 @@ nav{
 }
 .my-detail p{
     color:rgba(0, 0, 0, 0.945);
-	font-size: 16px;
+	font-size: 1.2rem;
 }
 .my-detail h1{
     font-family:Poppins;
@@ -102,7 +105,7 @@ nav{
 }
 .social{
 	position: absolute;
-	left: 200px;
+	left: 180px;
 	bottom: 50px;
 	display: flex;
 
@@ -116,7 +119,7 @@ nav{
 	font-size: 2rem;
 }
 .social a:hover i{
-	color: rgb(119, 6, 72);
+	color: rgb(7, 255, 214);
 	transition: all ease 0.5s;
 }
 /* about section */
@@ -136,7 +139,7 @@ nav{
     width: 50%;
 }
 .about-text h1{
-    color: rgb(119, 6, 72);
+    color: rgb(7, 255, 214);
     font-size: 5rem;
 }
 .about-text h2{
@@ -147,6 +150,9 @@ nav{
 .about-text h1,h2{
 	margin: 0px;
 	padding: 0px;
+}
+.about-model img{
+    border-radius: 50%;
 }
 .about-text p{
 	font-size: 1.2rem;
@@ -200,7 +206,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(119, 6, 72);
+    background-color: #4CAF50;
     display: none;
 }
 .overlay-text h1,p{
@@ -219,23 +225,22 @@ nav{
 .p-box:hover .overlay-text{
     display: flex;
 }
-/* Exper section */
+/* skills section */
 #skillResponsive {
-	max-width: 1000px;
-	margin: 0 auto;
+	max-width: 100%;
 	padding: 0 15px;
+    background-color: #edf1fd;
+    height: 500px;
   }
 .skills-heading{
-	color: rgb(119, 6, 72);
-	margin-top: 25px;
-}
-.skills-container {
-	background-color: #ddd;
+	color: #4CAF50;
+    /* margin-bottom: 10px; */
 }
 .skills {
 	text-align: right;
 	padding: 10px;
-	color: white;
+	color: black;
+    margin-left: 50px;
 }
 .html {
 	width: 90%;
@@ -253,12 +258,17 @@ nav{
 	width: 60%;
 	background-color: #808080;
 }
+/* Footer */
 .page-footer{
-    height: 50px;
-    background-color: rgb(119, 6, 72);
+    height: 70px;
+    background-color: #4CAF50;
     box-sizing: border-box;
 	color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.page-footer a{
+	color: blanchedalmond;
+	border-bottom: 1px solid white;
 }
