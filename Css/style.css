@@ -100,8 +100,9 @@ nav{
     color: #FFF;
 }
 .cv-btn:hover{
-	background-color: #131313;
-    transition: ease all 3s;
+	background-color: rgb(7, 255, 214);
+    transition: ease all 1s;
+	color: black;
 }
 .social{
 	position: absolute;
@@ -236,6 +237,11 @@ nav{
 	color: #4CAF50;
     /* margin-bottom: 10px; */
 }
+.skill-text{
+	color: black;
+	padding-left: 200px;
+	font-size: 1.2rem;
+}
 .skills {
 	text-align: right;
 	padding: 10px;
@@ -270,5 +276,5 @@ nav{
 }
 .page-footer a{
 	color: blanchedalmond;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid;
 }
